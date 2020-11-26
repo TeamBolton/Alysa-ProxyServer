@@ -1,11 +1,9 @@
 #app {
-  /* position: absolute; */
-  /* float: left; */
+  float: left;
 }
 
 #root {
-  /* position: absolute; */
-  /* float: right; */
+  display: inline-block;
 }
 
 /* stylesheet from Alysa-FrontEnd */
