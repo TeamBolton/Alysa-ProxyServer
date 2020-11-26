@@ -51,14 +51,14 @@ module.exports = {
     url: 'http://localhost:3002',
     bundle: 'bundle.js',
   },
-  /* service3: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3003',
-    bundle: 'app.js',
+  service3: {
+    api: '/products/photos',
+    url: 'http://localhost:3001',
+    bundle: 'bundle.js',
   },
   service4: {
-    api: 'FIX_ME',
+    api: '/products/:product_id/details',
     url: 'http://localhost:3004',
-    bundle: 'app.js',
-  }, */
+    bundle: 'bundle.js',
+  },
 };
